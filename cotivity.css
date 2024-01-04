@@ -1,0 +1,380 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Avenir-Roman",Helvetica,"Helvetica Neue",Arial,sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
+
+}
+
+.container2 {
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    background-color: #31066E;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+}
+
+header {
+    /* position: fixed; */
+    /* width: 100%; */
+}
+
+.logo {
+    display: inline-block;
+    float: left;
+    margin-top: 30px;
+
+
+}
+
+.logo a {
+    width: 100px;
+    height: 50px;
+    /* background-color: white; */
+}
+
+.logo a img {
+    width: 250px;
+
+}
+
+nav ul {
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    /* margin-top:50px */
+}
+
+nav ul li {
+    display: inline-block;
+    height: 100%;
+    margin-top: 20px
+}
+
+nav ul li a {
+    display: inline-block;
+    color: white;
+    padding: 20px;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+.page1 {
+    width: auto;
+    height: 600px;
+    background-color: #31066E;
+    background-image: url(banner-pattern.png);
+    /* background-size: contain; */
+    background-position: right;
+    background-repeat: no-repeat;
+    /* background-sizes; */
+
+    /* padding-top: 60px; */
+    /* padding-bottom: 60px; */
+
+}
+
+section, footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.info1 {
+    /* padding-top: 60px; */
+
+}
+
+.info1 h1 {
+    color: white;
+    font-size: 30px;
+
+
+}
+
+.info1 span {
+    display: block;
+    padding-top: 20px
+}
+
+.info2 {
+    width: 52.5%;
+    height: 250px;
+    padding: 40px;
+    background-color: white;
+    margin-top: 50px;
+}
+
+.info2 span {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    display: block;
+    color: #31006F;
+    font-size: 50px;
+
+}
+
+.info2 h1,
+p {
+    font-size: 16px;
+}
+
+.page2 {
+    /* height: 600px; */
+    background-image: url(building.png);
+    background-repeat: no-repeat;
+    /* background-position: right; */
+    background-position-x: calc(100% - 200px);
+    background-position-y: calc(100% - -30px);
+
+
+    background-size: contain;
+}
+
+.page2 h1 {
+    font-size: 40px;
+    font-weight: normal;
+    color: #2E3192;
+}
+
+.page2 p {
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.btn a {
+    border: 1px solid purple;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.btn a:hover {
+    background-color: pink;
+    border-color: pink;
+}
+
+.page3 {
+    background-color: #00ADEE;
+    text-align: center;
+    color: white;
+}
+
+.page3 p {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#whiteborder a {
+    border: 1px solid white;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+
+
+}
+
+#whiteborder a:hover {
+    background-color: pink;
+
+}
+
+/* background-attatchment:fixed; */
+
+.page4 {
+    background-image: url(parallax-home.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 300px;
+}
+.page5{
+    background-image: url(join.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 1000px;
+    padding-bottom: 80px;
+
+}
+.page5 .container2 {
+  
+}
+
+.page5 h1 {
+    text-align: center;
+    font-weight: normal;
+    color: #2E3192;
+    font-size: 2.5em;
+}
+
+.page5 p {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.margin {
+    /* border: 1px solid black; */
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.margin ul a {
+    text-decoration: none;
+    list-style: none;
+
+    /* background-image: url(https://www.cotiviti.com.np/sites/all/themes/verscend/images/arrow.png); */
+
+}
+
+/* .margin ul a :visited{
+    border: 1px dotted black;
+} */
+
+.margin ul a li {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 1.5em;
+    color: #ec008c;
+    background-image: url(https://www.cotiviti.com.np/sites/all/themes/verscend/images/arrow.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+
+
+}
+.margin img{
+    padding-top: 20px;
+    padding-left:40%;
+    display: block;
+}
+
+.margin span{
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+    font-size:30px ;
+   
+
+}
+
+
+.margin .second_span{
+    font-size: 18px;
+    padding-bottom: 30px;
+
+}
+
+.margin .btn {
+    /* display:block ; */
+    text-align: center;
+    
+    
+
+
+}
+.margin .btn .a{
+}
+
+.page6{
+    background-image: url(csr-graphics.png) ,url(csr-section-bg.jpg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: calc(100% - 300px),center bottom ;
+    height:500px;
+    /* aspect-ratio: ; */
+    /* background-size: ; */
+    
+
+    
+}
+
+.page6 .btn a{
+    color: white;
+}
+
+
+.page6 p{
+    padding-top: 20px;
+    padding-bottom: 50px;
+    color: white;
+}
+
+.page6 h1{
+    color: white;
+}
+
+
+footer{
+    padding-top: 80px;
+}
+
+footer ul{
+    padding-top: 20px;
+}
+
+footer ul li{
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+footer ul li a{
+   text-decoration: none; 
+   color: #666;
+   /* padding-bottom: 5px; */
+
+}
+
+footer p{
+    color: blue;
+    font-size: 1.5em;
+}
+
+footer ul li a:hover{
+    color: blue;
+}footer .first_place{
+    float: left;
+
+}
+footer .second_place{
+    float: left;
+    margin-left: 100px;
+}
+
+footer .third_place{
+    float:left;
+    margin-left: 100px;
+}
+
+footer .right{
+    float: right;
+    margin-right: 200px;
+    display: inline-block;
+}
+
+footer .left{
+    display: inline-block;
+}
+
+
+ .copyright{
+    padding-top: 0px;
+    padding-bottom: 50px;
+    background-image: url(logo_footer.png);
+    background-repeat: no-repeat;
+    background-position-x:calc(100% - 20px) 
+
+}
